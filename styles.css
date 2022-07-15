@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.hero {
+   height: 343px;
+   padding: 10px;
+   background-image: url("images/pittsburghcity.jpeg");
+   background-color: #262322;
+   text-shadow: 2px 2px 3px #F7CE60;
+
+   
+}
+
+.activities {
+    height: 250px;
+    background-color: #F7CE60;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+#activityimgs{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+#activityimgs div{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.aboutme {
+    background-color: #E1E5EE;
+    height: 225px;
+    padding: 50px 0;
+}
+
+.infocard {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: #C7CCDB;
+    border-radius: 12px;
+    border-bottom: 3px solid #262322;
+    margin: auto;
+    padding: 15px;
+    width: 400px;
+    
+
+}
+
+img {
+    width: 100px;
+    border-radius: 60px;
+    border: 1.5px solid #A26769;
+}
